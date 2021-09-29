@@ -1,0 +1,165 @@
+.btn-orange {
+  color: #e38826;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  height: 2.5rem;
+  width: 8rem;
+  font-family: "Lexend Deca", sans-serif;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: Bouton;
+  margin-bottom: 2rem;
+}
+
+.btn-cyan {
+  color: #006970;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  height: 2.5rem;
+  width: 8rem;
+  font-family: "Lexend Deca", sans-serif;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: Bouton;
+  margin-bottom: 2rem;
+}
+
+.btn-darkcyan {
+  color: #004241;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  height: 2.5rem;
+  width: 8rem;
+  font-family: "Lexend Deca", sans-serif;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: Bouton;
+  margin-bottom: 2rem;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: Text;
+  font-size: small;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: H2;
+}
+
+.col-orange {
+  border-radius: 10px 0 0 10px;
+  background-color: #e38826;
+  width: 33%;
+  font-weight: 200;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "Logo" "H2" "Text" "Text" "Vide2" "Bouton";
+}
+
+.col-cyan {
+  border-radius: 0;
+  background-color: #006970;
+  width: 33%;
+  font-weight: 200;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "Logo" "H2" "Text" "Text" "Vide2" "Bouton";
+}
+
+.col-darkcyan {
+  border-radius: 0 10px 10px 0;
+  background-color: #004241;
+  width: 33%;
+  font-weight: 200;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "Logo" "H2" "Text" "Text" "Vide2" "Bouton";
+}
+
+.img-logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Logo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+
+.boxG {
+  width: 75vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20vh;
+  margin-bottom: 2rem;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 40vw;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style-destop.css.map */
